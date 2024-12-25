@@ -14,3 +14,12 @@ This is a Flask-based Library Management System API that supports CRUD operation
    ```bash
    git clone https://github.com/your-repository/library-management-system.git
    cd library-management-system
+2. Set up a virtual environment:
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+3. Install dependencies:
+   pip install flask
+   pip install flask_sqlalchemy
+4. Run the application:
+   python app.py
+5. The API will be available at http://127.0.0.1:5000/.
